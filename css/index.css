@@ -1,1 +1,5 @@
-Main Index
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&display=swap');
+
+navbar {
+  font-family: 'Asap', sans-serif;
+}
