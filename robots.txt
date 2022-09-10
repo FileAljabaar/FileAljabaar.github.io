@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://filealjabaar.github.io//sitemap.xml
+Sitemap: http://apkmodify.github.io/sitemap.xml
