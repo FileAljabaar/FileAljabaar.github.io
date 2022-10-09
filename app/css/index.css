@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+p, h6, span{
+  font-family: 'Ubuntu', sans-serif !important;
+}
+hr {
+  width: 5em;
+}
+.hr {
+  max-width: 45em !important;
+}
+
+.fs-sm {
+  font-size: 11px !important;
+}
+.fs-badge {
+  font-size: 10px !important;
+}
+.fs-title {
+  font-size: 14px !important;
+}
+.navbar-brand {
+  font-family: 'Bree Serif', sans-serif !important;
+}
+
+.product-hover:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+/* Produk Slider Start */
+.wrapper {
+  max-width: 45em !important;
+  max-height: 700px !important;
+  display: flex !important;
+  overflow-x: scroll !important;
+  touch-action: pan-x;
+}
+
+.wrapper::webkit-scrollbar{
+  width: 0 !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0 ;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent !important;
+}
+
+.wrapper .item {
+  min-width: 118px !important;
+  height: 14em !important;
+  line-height: auto !important;
+}
+
+.menu-slider {
+  width: 110px !important;
+  height: 150px;
+  margin-bottom: 40px !important;
+  text-align: center !important;
+  background: white !important;
+  border-radius: 7px 7px 7px 7px !important;
+  float: left;
+}
+
+.menu-slider img {
+  width: 76px !important;
+  height: auto !important;
+  margin-left: 1% !important;
+  margin-right: 1% !important;
+  border-radius: 15px !important;
+}
+.menu-slider span {
+  font-size: 12px !important;
+}
+/* Produk Slider End */
