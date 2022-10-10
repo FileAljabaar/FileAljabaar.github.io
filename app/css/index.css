@@ -32,8 +32,6 @@ hr {
 .wrapper {
   max-width: 45em !important;
   max-height: 700px !important;
-  display: flex !important;
-  overflow-x: scroll !important;
 }
 
 .wrapper .item {
