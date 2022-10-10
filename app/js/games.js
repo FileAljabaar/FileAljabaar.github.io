@@ -7,7 +7,7 @@ gmod.onload = function(){
 		let output = "";
 		for(let item of games){
 			output += `
-<article>
+<article class="swiper-slide">
 <a href="${item.link}" class="shadow-0">
   <div class="item draggable">
     <div class="card hover-shadow" style="max-width: 7em; min-width: 7em; min-height: 12em; max-height: 12em">
