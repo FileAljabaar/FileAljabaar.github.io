@@ -34,30 +34,6 @@ hr {
   max-height: 700px !important;
   display: flex !important;
   overflow-x: scroll !important;
-  touch-action: pan-x;
-}
-
-.wrapper::webkit-scrollbar{
-  width: 0 !important;
-}
-/* width */
-::-webkit-scrollbar {
-  width: 0 ;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent !important;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: transparent !important;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: transparent !important;
 }
 
 .wrapper .item {
