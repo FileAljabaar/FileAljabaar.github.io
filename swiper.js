@@ -88,6 +88,7 @@
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         spaceBetween: 30,
+        grabCursor: true,
         freeMode: true,
       });
     </script>
