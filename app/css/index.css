@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+p, h3, h2, span {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+h3 {
+  font-size: 0.9em !important;
+}
+
+hr {
+  width: 5em;
+}
+.hr {
+  max-width: 100% !important;
+}
+
+.fs-sm {
+  font-size: 0.8em !important;
+}
+.fs-badge {
+  font-size: 0.7em !important;
+}
+.fs-title {
+  font-size: 0.9em !important;
+}
+.navbar-brand {
+  font-family: 'Bree Serif', sans-serif !important;
+}
+
+.product-hover:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+/* Produk Slider Start */
+.wrapper {
+  max-width: 100% !important;
+  max-height: 18.5em !important;
+  min-height: 18.5em !important;
+  display: flex;
+  overflow-x: hidden;
+  cursor: grab;
+  position: relative;
+  z-index: 1;
+}
+
+.s-wrapper {
+position: relative;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+  overflow: auto;
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+}
+
+.s-slide {
+  position: relative;
+  cursor: grab;
+transition-property: transform;
+}
+
+
+.menu-slider {
+  width: 110px !important;
+  height: 150px;
+  margin-bottom: 40px !important;
+  text-align: center !important;
+  background: white !important;
+  border-radius: 7px 7px 7px 7px !important;
+  float: left;
+}
+
+.menu-slider img {
+  width: 76px !important;
+  height: auto !important;
+  margin-left: 1% !important;
+  margin-right: 1% !important;
+  border-radius: 15px !important;
+  object-fit: cover !important;
+}
+.menu-slider span {
+  font-size: 12px !important;
+}
+/* Produk Slider End */
